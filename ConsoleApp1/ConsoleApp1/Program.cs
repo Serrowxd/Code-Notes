@@ -39,6 +39,7 @@ namespace Variables
         static void Three(string[] args)
         {
             const float Pi = 3.14f;
+            Console.WriteLine(Pi);
         }
 
     }
