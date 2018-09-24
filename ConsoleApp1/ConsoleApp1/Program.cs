@@ -42,5 +42,18 @@ namespace Variables
             Console.WriteLine(Pi);
         }
 
+        static void Four(string[] args)
+        {
+            int i = 1;
+            byte b = (byte) i;
+            Console.WriteLine(b);
+        }
+        
+        static void Five(string[] args)
+        {
+            var number = "1234";
+            int i = Convert.ToInt32(number);
+            Console.WriteLine(i);
+        }
     }
 }
