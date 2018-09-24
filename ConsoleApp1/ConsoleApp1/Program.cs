@@ -29,5 +29,17 @@ namespace Variables
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
         }
+
+        static void Two(string[] args)
+        {
+            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
+            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+        }
+
+        static void Three(string[] args)
+        {
+            const float Pi = 3.14f;
+        }
+
     }
 }
