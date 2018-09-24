@@ -55,5 +55,19 @@ namespace Variables
             int i = Convert.ToInt32(number);
             Console.WriteLine(i);
         }
+
+        static void Six(string[] args)
+        {
+            try
+            {
+                var number = "1234";
+                int i = Convert.ToInt32(number);
+                Console.WriteLine(i);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("The number could not be converted to a byte.");
+            }
+        }
     }
 }
