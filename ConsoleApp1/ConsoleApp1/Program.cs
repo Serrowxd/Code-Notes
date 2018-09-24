@@ -66,8 +66,19 @@ namespace Variables
             }
             catch (Exception)
             {
-                Console.WriteLine("The number could not be converted to a byte.");
+                Console.WriteLine("The number could not be converted to an integer.");
             }
+        }
+
+        static void Seven(string[] args)
+        {
+            var a = 10;
+            var b = 3;
+
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a / b);
+            Console.WriteLine((float)a / (float)b);
         }
     }
 }
